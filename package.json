@@ -1,14 +1,27 @@
 {
   "name": "web3-token-stats",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "A simple tool to get web3 token info",
+  "main": "src/getTokenInfo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnyNodes/web3-token-stats.git"
+  },
+  "keywords": [
+    "web3",
+    "walletconnect",
+    "metamask",
+    "web3-provider",
+    "wallet",
+    "evm",
+    "address",
+    "eth"
+  ],
+  "author": "AnyNodes",
+  "license": "MIT",
   "dependencies": {
     "ethers": "^6.11.1",
     "web3-wallet-address": "^1.0.4"
