@@ -1,6 +1,6 @@
 {
   "name": "web3-token-stats",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple tool to get web3 token info",
   "main": "src/getTokenInfo.js",
   "scripts": {
@@ -24,6 +24,7 @@
   "license": "MIT",
   "dependencies": {
     "ethers": "^6.11.1",
-    "web3-wallet-address": "^1.0.4"
+    "web3-wallet-address": "^1.0.4",
+    "massa-tools": "^1.0.0"
   }
 }
